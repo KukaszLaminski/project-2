@@ -9,5 +9,7 @@ const changeImage = () => {
  header.style.backgroundImage = image ? "url(drink.jpg)" : "url(bulding.jpg)";
  h1.textContent = title ? "Śniadanie" : "Coś fajnego";
 
- header.addEventListener("click", changeImage)
+
 }
+
+header.addEventListener("click", changeImage)
